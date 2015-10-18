@@ -21,7 +21,50 @@ int main()
 	{
 		cout << "To za duzo!" << endl;
 	}
-
+	if (liczba != strzal)
+	{
+		cin >> liczba;
+			if (liczba == strzal)
+				cout << "Gratulacje, wygrales!" << endl;
+			else if (liczba < strzal)
+				cout << "To za malo!" << endl;
+			else if (liczba > strzal)
+				cout << "To za duzo!" << endl;
+	}
+	if (liczba != strzal)
+	{
+		cin >> liczba;
+			if (liczba == strzal)
+				cout << "Gratulacje, wygrales!" << endl;
+			else if (liczba < strzal)
+				cout << "To za malo!" << endl;
+			else if (liczba > strzal)
+				cout << "To za duzo!" << endl;
+	}
+	if (liczba != strzal)
+	{
+		cin >> liczba;
+			if (liczba == strzal)
+				cout << "Gratulacje, wygrales!" << endl;
+			else if (liczba < strzal)
+				cout << "To za malo!" << endl;
+			else if (liczba > strzal)
+				cout << "To za duzo!" << endl;
+	}
+	if (liczba != strzal)
+	{
+		cin >> liczba;
+			if (liczba == strzal)
+				cout << "Gratulacje, wygrales!" << endl;
+			else if (liczba < strzal)
+				cout << "To za malo!" << endl;
+			else if (liczba > strzal)
+				cout << "To za duzo!" << endl;
+	}
+	if (liczba != strzal)
+	{
+		cout << "To juz Twoja piata proba - Przegrales!" << endl;
+	}
 	system("pause");
 	return 0;
 }
