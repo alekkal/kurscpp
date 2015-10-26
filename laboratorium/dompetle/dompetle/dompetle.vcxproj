@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F093FD3F-0DFB-4BEB-ACCE-508EB492592A}</ProjectGuid>
+    <ProjectGuid>{91716452-1E34-430B-BE7F-7FFFC0D6FEF9}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>petla_lab</RootNamespace>
+    <RootNamespace>dompetle</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,7 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="petla.cpp" />
+    <ClCompile Include="dompettle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
