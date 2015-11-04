@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="petle_zaddom.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="petle_ddom.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="petlelab.cpp">
+    <ClCompile Include="tablicedom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

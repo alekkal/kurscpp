@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E72A2CAF-EC35-406B-9B51-E1F52EF595F8}</ProjectGuid>
+    <ProjectGuid>{03432DA4-1FF8-4A9B-87CB-FDF4D377269F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>petle_zad</RootNamespace>
+    <RootNamespace>tabdom</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,9 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="petlelab.cpp" />
-    <ClCompile Include="petle_ddom.cpp" />
-    <ClCompile Include="petle_zaddom.cpp" />
+    <ClCompile Include="tablicedom.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
