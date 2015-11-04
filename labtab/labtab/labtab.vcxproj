@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F093FD3F-0DFB-4BEB-ACCE-508EB492592A}</ProjectGuid>
+    <ProjectGuid>{F514A287-6AAE-4BDF-970A-1FE425F0B65E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>petla_lab</RootNamespace>
+    <RootNamespace>labtab</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,7 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="petla.cpp" />
+    <ClCompile Include="lab_tab.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
