@@ -6,7 +6,7 @@
 
 using namespace std;
 
-#define ZAD7
+#define ZAD4
 
 int main(int argc, char**argv)
 
@@ -65,20 +65,21 @@ int main(int argc, char**argv)
 		cout << wyraz << endl;
 
 		int dlugosc = wyraz.length();
-		char a;
-		char z;
+		
+
 		for (int i = 0; i < wyraz.length(); i++)
 		{
-			if (wyraz[i] == 'a')
+			switch (wyraz[i])
 			{
-				wyraz.replace(i, 1, 'z');
+			case 'A': wyraz[i] = 'Z';
+				break;
+			case 'a': wyraz[i] = 'z';
 			}
 		}
 
 		cout << wyraz << endl;
 
-		// jest b³¹d w pêtli. na pocz¹tku zapisa³am zamieniane litery w apostrofach( ' ' ), ale wyskakiwa³ jeszcze inny d³ugi b³¹d. 
-		// teraz po  zamianie wyskakuj¹ 3 inne b³êdy.
+		
 #endif
 
 #ifdef ZAD5
