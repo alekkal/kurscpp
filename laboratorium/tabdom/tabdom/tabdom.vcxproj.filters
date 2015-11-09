@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="zadompetle.cpp">
+    <ClCompile Include="tablicedom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

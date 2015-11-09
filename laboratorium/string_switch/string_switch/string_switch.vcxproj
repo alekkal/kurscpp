@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C00C7892-0D8A-4677-B167-FFFBA8007DB2}</ProjectGuid>
+    <ProjectGuid>{44559C76-458F-4377-AEAD-D8BDBEF14A87}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>petle_dom</RootNamespace>
+    <RootNamespace>string_switch</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,6 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="stringswitch.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

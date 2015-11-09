@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0690CD02-CE4F-4117-A6E7-C2BF1765DD9F}</ProjectGuid>
+    <ProjectGuid>{03432DA4-1FF8-4A9B-87CB-FDF4D377269F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>zaddompetle</RootNamespace>
+    <RootNamespace>tabdom</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,7 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="zadompetle.cpp" />
+    <ClCompile Include="tablicedom.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
