@@ -6,7 +6,7 @@
 
 using namespace std;
 
-#define ZAD4
+#define ZAD1
 
 int main(int argc, char**argv)
 
@@ -93,7 +93,7 @@ int main(int argc, char**argv)
 
 		for (int i = 0; i < dlugosc; i++)
 		{
-			if (imie[i] == ' ')
+			if (imie[i] == ' ') // w apostrofach jest spacja
 			{
 				x = i + 1;
 			}
