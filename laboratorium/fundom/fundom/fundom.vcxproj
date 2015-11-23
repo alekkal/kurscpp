@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8B0C929B-5F3F-4EFF-9FE3-6B93C35892B1}</ProjectGuid>
+    <ProjectGuid>{44E61894-7DE9-412D-84BE-E0D9E00843F8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>stringswitch</RootNamespace>
+    <RootNamespace>fundom</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,6 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="funkcje.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
