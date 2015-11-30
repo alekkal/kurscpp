@@ -6,7 +6,9 @@
 
 using namespace std;
 
-#define ZAD1
+#define ZAD7
+
+
 
 int main(int argc, char**argv)
 
