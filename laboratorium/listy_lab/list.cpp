@@ -13,15 +13,6 @@ struct List
 	ListElem* head;
 };
 
-void AddFront(ListElem* &head, int val) //glowa wskazuje na null
-{
-	head = new ListElem{ val, head };
-}
-
-void AddFront(List &list, int val)
-{
-	list.head = new ListElem;
-}
 
 void wypisz(ListElem* &head)
 {
@@ -29,59 +20,104 @@ void wypisz(ListElem* &head)
 
 	while (tmp != nullptr)
 	{
-		cout << tmp->val << " " << endl;
+		cout << tmp->val << " ";
 		tmp = tmp->next;
 	}
 }
 
-void usun(ListElem* &head)
+void odtylu(ListElem* &head)
 {
-	auto do_usuniecia = head;
-
-	while (head)
+	if (head)
 	{
-		do_usuniecia = head;
-		head = do_usuniecia->next;
-		delete do_usuniecia;
-
+		odtylu(head->next);
+		cout << head->val << " ";
 	}
 }
+
+
+
+void AddFront(ListElem* &head, int val)
+{
+	head = new ListElem{ val, head };
+}
+
+void dodaj(ListElem* &head)
+{
+	auto wsk = head;
+	
+	if (head==nullptr)
+	{
+		head = new ListElem{ 10, nullptr };
+		return;
+	}
+
+	while (wsk->next != nullptr)
+	{
+		wsk=wsk->next;
+	}
+
+	wsk->next = new ListElem{ 10, nullptr };
+
+}
+
+void elem(ListElem* &head, int n)
+{
+
+	ListElem* spr = head;
+	while (spr->next)
+	{
+		if (spr->val == n)
+		{
+			cout << "istnieje" << endl;
+			return;
+		}
+		spr = spr->next;
+	}
+
+	cout << "nie istnieje" << endl;
+}
+
+
+
 
 
 int main()
 {
 
-	List list{ nullptr };
-	ListElem* head = nullptr;
-
-
-
-	/* head = new ListElem{ 5, nullptr };
-
-	head->next = new ListElem{ 6, nullptr }; */
-
 	
+
+
+	ListElem*head = nullptr;
+	head = new ListElem{ 5, nullptr };
+	head->next = new ListElem{ 6, nullptr };
+
 	AddFront(head, 5);
 	AddFront(head, 6);
 
-	
-	auto tmp = head;
-
-	while (tmp!=nullptr)
+	for (int i = 1; i < 20;)
 	{
-		cout << tmp->val << " " << endl;
-		tmp = tmp->next;
+		AddFront(head, i);
+		 i++;
 	}
 
-	auto do_usuniecia = head;
 
-	while (head)
-	{
-		do_usuniecia = head;
-		head = do_usuniecia->next;
-		delete do_usuniecia;
 
-	}
+
+	wypisz(head);
+
+	cout << endl;
+	odtylu(head);
+
+	cout << endl;
+	dodaj(head);
+
+
+	elem(head, 212);
+	cout << endl;
+
+	// napisz funkcjê, ktora dodaje do listy elementy w taki sposób, aby wszystkie elementy w liœcie by³y posortowane
+	//albo malej¹co albo rosn¹co. Jedynie za pomoc¹ tej funkcji elementy bêd¹ dodawane do listy (AddSorted)
+	//
 
 
 	system("pause");
