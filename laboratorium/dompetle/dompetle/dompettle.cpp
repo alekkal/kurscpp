@@ -8,7 +8,7 @@
 
 using namespace std;
 
-#define ZAD7
+#define ZAD3
 
 int main()
 {
