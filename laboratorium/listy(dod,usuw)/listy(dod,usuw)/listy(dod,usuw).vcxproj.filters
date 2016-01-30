@@ -15,39 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="projekt.cpp">
+    <ClCompile Include="listy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Parametry.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Pomoc.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Funkcje.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="etykiety.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
-    <Text Include="Publikacja.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
-    <Text Include="Plik_wyjsciowy.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Parametry.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Pomoc.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Funkcje.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

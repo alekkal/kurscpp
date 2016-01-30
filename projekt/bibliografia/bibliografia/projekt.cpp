@@ -1,37 +1,34 @@
 #include <iostream>
 #include <fstream>
+#include <string>
+
+#include "Parametry.h"
+#include "Pomoc.h"
+#include "Funkcje.h"
 
 using namespace std;
 
 
-void otwieranie_pliku_etykiet(const string& plik_etykiety)
-{
-	ifstream plik_etykiety("etykiety.txt");
-
-	if (!plik_etykiety)
-	{
-		cout << "Nie ma takiego pliku." << endl;
-		exit(1);
-	}
-
-}
-
-struct etykiety_ksiazek
-{
-	string etykiety;
-	etykiety_ksiazek* lewa;
-	etykiety_ksiazek* prawa;
-};
-
-struct lista
-{
-	lista* nastepny;
-	lista* poprzedni;
-	etykiety_ksiazek* etykiety;
-};
-
 int main(int argc, char**argv)
 {
+	string input_file_name, input_file_name_2 ,output_file_name;
+	if (!parse_parameters(argc, argv, input_file_name, input_file_name_2,output_file_name))
+	{
+		cout << "Bledne parametry:"<<endl;
+		help();
+		return 1; 
+	}
 
-	const string plik_etykiety = "etykiety.txt";
+	etykiety_ksiazek* root = nullptr;
+	Lista_dwukierunkowa* head = nullptr;
+	Czytaj_Opisy(input_file_name_2, root);
+	Czytaj_Publikacje(input_file_name, root, head);
+	Nadaj_numer(head);
+	Zastap_numerem(head, input_file_name, output_file_name);
+	Wypisz_bibliografie(head, output_file_name);
+	usun_drzewo(root);
+	usun_liste(head);
+
+	return 0;
 }
+

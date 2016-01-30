@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{EDC193D4-CF07-4587-AA6B-37E5E05F3BA6}</ProjectGuid>
+    <ProjectGuid>{19CB055A-F654-4C47-9905-A588A7B99511}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>bibliografia</RootNamespace>
+    <RootNamespace>listydodusuw</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,20 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Funkcje.cpp" />
-    <ClCompile Include="Parametry.cpp" />
-    <ClCompile Include="Pomoc.cpp" />
-    <ClCompile Include="projekt.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="etykiety.txt" />
-    <Text Include="Plik_wyjsciowy.txt" />
-    <Text Include="Publikacja.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Funkcje.h" />
-    <ClInclude Include="Parametry.h" />
-    <ClInclude Include="Pomoc.h" />
+    <ClCompile Include="listy.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
