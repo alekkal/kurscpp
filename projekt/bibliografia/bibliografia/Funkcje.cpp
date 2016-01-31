@@ -300,7 +300,7 @@ void Zastap_numerem(Lista_dwukierunkowa*& head, const string& input_file_name, c
 	Publikacja_wyjsciowa.close();
 }
 /*
-W tej funkcji zamiast frazy \\cite{etykieta} wprowadzam odpowiedni numer w nawiasach kwadratowych [numer].
+W tej funkcji zamiast frazy \cite{etykieta} wprowadzam odpowiedni numer w nawiasach kwadratowych [numer].
 Operujê na dwóch plikach: Publikacje i na pliku wyjœciowym.
 */
 
