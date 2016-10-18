@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A43C7FDE-86FC-4E5B-934A-89881E93EEF1}</ProjectGuid>
+    <ProjectGuid>{DBD4BDD3-5763-4718-A2D7-7BC2846A43A4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>kolkoikrzyzyk</RootNamespace>
+    <RootNamespace>costam</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,7 +146,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="kolkoikrzyzyk.cpp" />
+    <ClCompile Include="..\..\..\..\..\Documents\•POLIBUDA•\ppk\poprawa\A.cpp" />
+    <ClCompile Include="..\..\..\..\..\Documents\•POLIBUDA•\ppk\poprawa\B.cpp" />
+    <ClCompile Include="..\..\..\..\..\Documents\•POLIBUDA•\ppk\poprawa\C.cpp" />
+    <ClCompile Include="costamtam.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

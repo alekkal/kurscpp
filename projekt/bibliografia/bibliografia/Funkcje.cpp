@@ -63,6 +63,8 @@ Lista_dwukierunkowa* Stworz_liste(Lista_dwukierunkowa *&head, etykiety_ksiazek*&
 		head = nowa_lista;										// wskaznik head wskazuje na to samo co nowa lista
 		return nowa_lista;										// i jest zwracany
 	}
+
+
 	else if (head->etykiety->nazwisko >= nowa_lista->etykiety->nazwisko)
 	{															// je¿eli element na którym jesteœmy jest pocz¹tkiem listy
 														        // wskaŸnik nastêpny nowego elementu ustawiamy tak by wskazywa³ na aktualn¹ g³owê

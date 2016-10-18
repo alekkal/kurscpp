@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="kolkoikrzyzyk.cpp">
+    <ClCompile Include="cwiczenia_do_laborek.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
